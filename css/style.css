@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,10 +65,11 @@ body {
     line-height: 1.2;
 }
 
-.home-content h3 {
-    font-size: 32px;
+.home-content h2 {
+    font-size: 28px;
     font-weight: 700;
     color: #00abf0;
+    margin-top: 20px;
 }
 
 .home-content p {
@@ -103,10 +104,6 @@ body {
     transition: .5s;
 }
 
-/* .btn-box a:nth-child(1,2) {
-    background: transparent;
-    color: #00abf0;
-}  */
 .btn-box a:hover {
     color: #081b29;
 }
@@ -144,17 +141,17 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #adeded;
     border-radius: 20%;
     font-size: 30px;
-    color: #00abf0;
+    color: #adeded;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
 }
 
 .home-sci a:hover {
-    color: #081b29;
+    color: #adeded;
 }
 
 .home-sci a::before {
