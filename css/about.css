@@ -45,6 +45,10 @@ body {
     color: #00abf0;
 }
 
+.nav-link.active {
+    color: #00abf0;
+}
+
 .main{
     text-align: justify;
     margin-top: 78px;
@@ -84,7 +88,7 @@ body {
 .about-introduction p {
     /* margin-right: 10px; */
     font-size: 16px;
-    width: auto;
+    width: 80%;
 }
 
 .about-content {
@@ -93,6 +97,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 40px;
 }
@@ -107,10 +112,18 @@ body {
     flex-wrap: wrap;
 }
 
+#about-p {
+    text-align: left;
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
 .about-content div p{
     text-align: justify;
     font-size: 16px;
     width: 70%;
+    background: red;
 }
 
 .about-content div img{
@@ -148,9 +161,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: red;
+    width: clamp(180px, 40%, 200px);
 }
 
 .schools div img{
-    width: 80px;
+    width: 180px;
     border-radius: 20px;
+    margin: 10px;
+}
+
+footer {
+    background: #020e16;
+    color: #ededed;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
 }
