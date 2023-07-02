@@ -68,27 +68,27 @@ body {
 .about-introduction {
     align-items: center; /* Alinha verticalmente ao centro */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     padding: 40px;
 }
 
 .about-introduction-img {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .about-introduction-img img {
     width: clamp(100px, 20vw, 200px);
-    margin-bottom: 20px;
+    margin: 20px;
     border-radius: 5px;
 }
 
 .about-introduction p {
-    /* margin-right: 10px; */
     font-size: 16px;
-    width: 80%;
+    width: 50%;
 }
 
 .about-content {
@@ -134,7 +134,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    width: clamp(100px, 40%, 200px);
+    width: clamp(180px, 40%, 200px);
     border-radius: 20px;
 }
 
